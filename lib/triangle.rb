@@ -55,8 +55,7 @@ class Triangle
         return :isosceles
       elsif valid?
         return :scalene
-      else
-        raise TriangleError
+      end
     end
   end
   
