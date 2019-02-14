@@ -53,7 +53,7 @@ class Triangle
         return :equilateral
       elsif isosceles?
         return :isosceles
-      elsif valid?
+      else valid?
         return :scalene
       end
     end
